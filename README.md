@@ -10,7 +10,7 @@ This project is a full-stack AI-powered legal assistant platform consisting of:
 - 🧠 **legal-ai-service** — Backend AI services (embedding, summarization, indexing)
 - 🌐 **legal-frontend** — React-based web frontend for user interaction
 - 🔧 **legal-backend** — Node.js/Express backend (API & Auth)
-- 🧪 Other utilities in `a/` and `m/` directories
+
 
 ---
 
@@ -21,7 +21,6 @@ This project is a full-stack AI-powered legal assistant platform consisting of:
 ├── legal-ai-service      # Python-based AI service
 ├── legal-backend         # Node.js Express backend
 ├── legal-frontend        # React frontend
-├── a/, m/                # Utility modules / scripts
 
 ````
 
@@ -71,8 +70,13 @@ npm install
 Create a `.env` file in `legal-backend/`:
 
 ```env
-PORT=5000
 JWT_SECRET=your_secret_key
+DB_HOST=localhost
+DB_USER=root
+DB_PASSWORD=YOUR_PASSWORD
+DB_NAME=legal_chatbot
+FASTAPI_URL=http://localhost:8000
+PORT=3001
 ```
 
 ### 🚀 Run Server
@@ -111,21 +115,3 @@ To use the pretrained models, download them from the links below and place them 
 legal-ai-service/models/
 ```
 
----
-
-## 📬 Contact
-
-For issues or collaboration, please contact \[[your-email@example.com](mailto:your-email@example.com)].
-
----
-
-## 📝 License
-
-MIT License © 2025 Your Name
-
-```
-
----
-
-Would you like me to include badges (build status, license, etc.) or a sample `.env` file too?
-```

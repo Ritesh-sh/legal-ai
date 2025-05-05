@@ -1,0 +1,78 @@
+|-- .gitignore
+|-- a
+    |-- b.py
+    |-- c.py
+    |-- d.py
+    |-- e.py
+    |-- f.py
+    |-- main.py
+|-- legal-ai-service
+    |-- main.py
+    |-- models
+        |-- legal_embedding_model
+            |-- 1_Pooling
+                |-- config.json
+            |-- 2_Normalize
+            |-- config.json
+            |-- config_sentence_transformers.json
+            |-- model.safetensors
+            |-- modules.json
+            |-- README.md
+            |-- sentence_bert_config.json
+            |-- special_tokens_map.json
+            |-- tokenizer.json
+            |-- tokenizer_config.json
+            |-- vocab.txt
+        |-- legal_index.faiss
+        |-- legal_sections.pkl
+        |-- legal_summarizer
+            |-- added_tokens.json
+            |-- config.json
+            |-- generation_config.json
+            |-- model.safetensors
+            |-- special_tokens_map.json
+            |-- spiece.model
+            |-- tokenizer_config.json
+    |-- old_req.txt
+    |-- requirement.txt
+    |-- requirements.txt
+    |-- __pycache__
+        |-- main.cpython-312.pyc
+|-- legal-backend
+    |-- .env
+    |-- index.js
+    |-- package-lock.json
+    |-- package.json
+    |-- schema.sql
+|-- legal-frontend
+    |-- .gitignore
+    |-- package-lock.json
+    |-- package.json
+    |-- public
+        |-- favicon.ico
+        |-- index.html
+        |-- logo192.png
+        |-- logo512.png
+        |-- manifest.json
+        |-- robots.txt
+    |-- README.md
+    |-- src
+        |-- App.css
+        |-- App.js
+        |-- App.test.js
+        |-- components
+            |-- Auth.jsx
+            |-- Chat.jsx
+            |-- ChatMessage.jsx
+            |-- History.jsx
+        |-- contexts
+            |-- AuthContext.js
+        |-- index.css
+        |-- index.js
+        |-- logo.svg
+        |-- reportWebVitals.js
+        |-- setupTests.js
+|-- m
+    |-- main.py
+|-- README.md
+|-- requirements.txt
