@@ -1,0 +1,78 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Python virtual environment
+venv/
+.env
+*.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Distribution / packaging
+*.egg
+*.egg-info/
+dist/
+build/
+*.manifest
+
+# PyInstaller
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+coverage.xml
+*.cover
+.cache
+nosetests.xml
+test-results/
+
+# FAISS and model files
+*.faiss
+*.pkl
+*.safetensors
+*.pt
+*.bin
+
+# Node modules and logs
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# React build output
+/build
+/.next
+/.cache
+
+# Log files
+*.log
+
+# IDE / Editor specific
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# Frontend specific
+legal-frontend/public/*.map
+
+# Ignore backups and temp files
+*~
+*.swp
+*.bak
+
+# Specific ignore
+legal-ai-service/__pycache__/
+a/
+m/
+legal-ai-service/models
